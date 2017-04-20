@@ -1,9 +1,0 @@
-var _user$project$Maybe_Extra$toResult = F2(
-	function (x, maybe) {
-		var _p0 = maybe;
-		if (_p0.ctor === 'Just') {
-			return _elm_lang$core$Result$Ok(_p0._0);
-		} else {
-			return _elm_lang$core$Result$Err(x);
-		}
-	});

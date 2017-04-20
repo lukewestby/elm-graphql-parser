@@ -1,9 +1,0 @@
-var _user$project$Result_Extra$fold = F3(
-	function (fx, fa, result) {
-		var _p0 = result;
-		if (_p0.ctor === 'Ok') {
-			return fa(_p0._0);
-		} else {
-			return fx(_p0._0);
-		}
-	});
