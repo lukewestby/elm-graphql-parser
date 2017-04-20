@@ -1,0 +1,28 @@
+var _user$project$GraphQL_Source$characters = function (_p0) {
+	var _p1 = _p0;
+	return _p1._1;
+};
+var _user$project$GraphQL_Source$body = function (_p2) {
+	var _p3 = _p2;
+	return _p3._0;
+};
+var _user$project$GraphQL_Source$name = function (_p4) {
+	var _p5 = _p4;
+	return A2(_elm_lang$core$Maybe$withDefault, 'GraphQL', _p5._2);
+};
+var _user$project$GraphQL_Source$Source = F3(
+	function (a, b, c) {
+		return {ctor: 'Source', _0: a, _1: b, _2: c};
+	});
+var _user$project$GraphQL_Source$create = F2(
+	function (body, name) {
+		return A3(
+			_user$project$GraphQL_Source$Source,
+			body,
+			_Skinney$elm_array_exploration$Array_Hamt$fromList(
+				A2(
+					_elm_lang$core$List$map,
+					_elm_lang$core$Char$toCode,
+					_elm_lang$core$String$toList(body))),
+			name);
+	});

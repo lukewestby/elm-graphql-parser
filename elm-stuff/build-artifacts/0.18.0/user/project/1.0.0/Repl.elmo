@@ -1,0 +1,6 @@
+var _user$project$Repl$t_s_o_l = {ctor: '_Tuple0'};
+var _user$project$Repl$d_e_l_t_r_o_n_3_0_3_0 = _user$project$GraphQL_PrettyPrinter$toString(
+	A2(
+		_user$project$GraphQL_PrettyPrinter$write,
+		'one\ntwo\nthree\n',
+		_user$project$GraphQL_PrettyPrinter$indent(_user$project$GraphQL_PrettyPrinter$start)));

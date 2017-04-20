@@ -1,0 +1,104 @@
+var _user$project$GraphQL_AST$Variable = function (a) {
+	return {name: a};
+};
+var _user$project$GraphQL_AST$Field = F5(
+	function (a, b, c, d, e) {
+		return {alias_: a, name: b, $arguments: c, directives: d, selectionSet: e};
+	});
+var _user$project$GraphQL_AST$Argument = F2(
+	function (a, b) {
+		return {name: a, value: b};
+	});
+var _user$project$GraphQL_AST$Directive = F2(
+	function (a, b) {
+		return {name: a, $arguments: b};
+	});
+var _user$project$GraphQL_AST$FragmentSpread = F2(
+	function (a, b) {
+		return {name: a, directives: b};
+	});
+var _user$project$GraphQL_AST$InlineFragment = F3(
+	function (a, b, c) {
+		return {typeCondition: a, directives: b, selectionSet: c};
+	});
+var _user$project$GraphQL_AST$NamedType = function (a) {
+	return {name: a};
+};
+var _user$project$GraphQL_AST$ListType = function (a) {
+	return {type_: a};
+};
+var _user$project$GraphQL_AST$Fragment = F4(
+	function (a, b, c, d) {
+		return {name: a, typeCondition: b, directives: c, selectionSet: d};
+	});
+var _user$project$GraphQL_AST$Operation = F5(
+	function (a, b, c, d, e) {
+		return {operationType: a, name: b, variableDefinitions: c, directives: d, selectionSet: e};
+	});
+var _user$project$GraphQL_AST$VariableDefinition = F3(
+	function (a, b, c) {
+		return {variable: a, type_: b, defaultValue: c};
+	});
+var _user$project$GraphQL_AST$Document = function (a) {
+	return {definitions: a};
+};
+var _user$project$GraphQL_AST$Name = function (a) {
+	return {ctor: 'Name', _0: a};
+};
+var _user$project$GraphQL_AST$ListValue = function (a) {
+	return {ctor: 'ListValue', _0: a};
+};
+var _user$project$GraphQL_AST$ObjectValue = function (a) {
+	return {ctor: 'ObjectValue', _0: a};
+};
+var _user$project$GraphQL_AST$VariableValue = function (a) {
+	return {ctor: 'VariableValue', _0: a};
+};
+var _user$project$GraphQL_AST$EnumValue = function (a) {
+	return {ctor: 'EnumValue', _0: a};
+};
+var _user$project$GraphQL_AST$NullValue = {ctor: 'NullValue'};
+var _user$project$GraphQL_AST$BoolValue = function (a) {
+	return {ctor: 'BoolValue', _0: a};
+};
+var _user$project$GraphQL_AST$FloatValue = function (a) {
+	return {ctor: 'FloatValue', _0: a};
+};
+var _user$project$GraphQL_AST$IntValue = function (a) {
+	return {ctor: 'IntValue', _0: a};
+};
+var _user$project$GraphQL_AST$StringValue = function (a) {
+	return {ctor: 'StringValue', _0: a};
+};
+var _user$project$GraphQL_AST$InlineFragmentSelection = function (a) {
+	return {ctor: 'InlineFragmentSelection', _0: a};
+};
+var _user$project$GraphQL_AST$FragmentSpreadSelection = function (a) {
+	return {ctor: 'FragmentSpreadSelection', _0: a};
+};
+var _user$project$GraphQL_AST$FieldSelection = function (a) {
+	return {ctor: 'FieldSelection', _0: a};
+};
+var _user$project$GraphQL_AST$ListNonNull = function (a) {
+	return {ctor: 'ListNonNull', _0: a};
+};
+var _user$project$GraphQL_AST$NamedNonNull = function (a) {
+	return {ctor: 'NamedNonNull', _0: a};
+};
+var _user$project$GraphQL_AST$NonNullTypeType = function (a) {
+	return {ctor: 'NonNullTypeType', _0: a};
+};
+var _user$project$GraphQL_AST$ListTypeType = function (a) {
+	return {ctor: 'ListTypeType', _0: a};
+};
+var _user$project$GraphQL_AST$NamedTypeType = function (a) {
+	return {ctor: 'NamedTypeType', _0: a};
+};
+var _user$project$GraphQL_AST$Mutation = {ctor: 'Mutation'};
+var _user$project$GraphQL_AST$Query = {ctor: 'Query'};
+var _user$project$GraphQL_AST$OperationDefinition = function (a) {
+	return {ctor: 'OperationDefinition', _0: a};
+};
+var _user$project$GraphQL_AST$FragmentDefinition = function (a) {
+	return {ctor: 'FragmentDefinition', _0: a};
+};
